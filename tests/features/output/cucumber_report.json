@@ -1,0 +1,134 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Automation demo",
+    "line": 1,
+    "id": "test-automation-demo",
+    "tags": [],
+    "uri": "features/test_automation.feature",
+    "elements": [
+      {
+        "id": "test-automation-demo;scenario1",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "scenario1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks/hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The App apk",
+            "match": {
+              "location": "features/step_definitions/sample_steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29703000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I input the name as \"Bader\"",
+            "match": {
+              "location": "features/step_definitions/sample_steps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3029000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I input the phone as \"05555555550\"",
+            "match": {
+              "location": "features/step_definitions/sample_steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I input the street as \"Aba Baker\"",
+            "match": {
+              "location": "features/step_definitions/sample_steps.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 921000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I input the comment as \"Nothing\"",
+            "match": {
+              "location": "features/step_definitions/sample_steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click to report",
+            "match": {
+              "location": "features/step_definitions/sample_steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The message should be \"Report has been sent successfullyr\"",
+            "match": {
+              "location": "features/step_definitions/sample_steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2355000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks/hooks.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

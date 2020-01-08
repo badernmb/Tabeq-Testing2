@@ -38,8 +38,8 @@ var desiredCaps = {
   unicodeKeyboard:true,
   resetKeyboard:true
 };
-  		
-  	
+
+
 await driver.init(desiredCaps);
 await delay(8000);
 
@@ -55,7 +55,7 @@ When('I input the name as {string}', async function (name) {
  // await driver.elementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View/android.view.View[2]/android.widget.EditText").type(name);
   await driver.elementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.widget.EditText").type(name);
 
-                       
+
 
 });
 
@@ -100,10 +100,10 @@ Then('The message should be {string}', async function (text) {
 await delay(2000);
 let el1 = await driver.elementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View");
 
-console.log(await el1.text());
+//console.log(await el1.text());
 
 //try{
-//assert.equal(await el1.text(), text);
+assert.equal(await el1.text(), text);
 //}
 //catch(error){
 
@@ -138,8 +138,8 @@ var desiredCaps = {
   unicodeKeyboard:true,
   resetKeyboard:true
 };
-      
-    
+
+
 await driver.init(desiredCaps);
 await delay(5000);
 
@@ -156,7 +156,7 @@ let el1 = await driver.elementById("parid");
 console.log(await el1.text());
 assert.equal(await el1.text(), value);
 
-  
+
 
 });
 
@@ -177,8 +177,8 @@ var desiredCaps = {
   unicodeKeyboard:true,
   resetKeyboard:true
 };
-      
-    
+
+
 await driver.init(desiredCaps);
 await delay(10000);
 //await driver.setImplicitWaitTimeout(10000);
@@ -193,7 +193,7 @@ await delay(10000);
 //console.log(await el1.text());
 //assert.equal(await el1.text(), value);
 
-  
+
 
 });
 

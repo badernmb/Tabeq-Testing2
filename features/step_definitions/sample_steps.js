@@ -36,7 +36,8 @@ var desiredCaps = {
   appPackage:'io.ionic.starter',
   autoGrantPermissions:true,
   unicodeKeyboard:true,
-  resetKeyboard:true
+  resetKeyboard:true,
+  fullReset:true
 };
 
 
